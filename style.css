@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+body
+{
+    min-height: auto;
+    overflow-x: hidden;
+    background: linear-gradient(#2b1055,#7597de);
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+header .logo
+{
+color: #fff;
+font-weight: 700;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+header .logop
+{
+color: #fff;
+font-weight: 700;
+text-decoration: none;
+font-size: 2em;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
+.arrowleft.png
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;  
+}
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+section::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top,#1c0522,transparent);
+    z-index: 1000;
+}
+section iframe
+{
+    position: center;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+    text-transform: uppercase;;
+    justify-content: space-between;
+}
+iframe
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
+div iframe
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 15%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
+section img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+section img#moon
+{
+    mix-blend-mode: screen;
+}
+section img#mountains_front
+{
+    z-index: 10;
+}
+#text
+{
+    position: absolute;
+    right: -350px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 7.5vw;
+    z-index: 9;
+}
+#textp
+{
+    position: absolute;
+    left: 180px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
+#textl
+{
+    position: absolute;
+    left: 300px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
+#textd
+{
+    position: absolute;
+    left: 410px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
+#textk
+{
+    position: absolute;
+    left: 612px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
+.elfsight-app-b0c8e802-e3a8-4de5-a452-6a7f0cd18928
+{
+    align-items: center;
+}
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px)
+}
+.sec
+{
+    position: relative;
+    padding: 100px;
+    background: #1c0522;
+}
+.sec h2
+{
+    font-size: 3.5em;
+    color: #fff;
+}
+.sec p
+{
+    
+    font-size: 1em;
+    color: #fff;  
+}
+div a 
+{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px;
+    list-style: none;
+}
+#btnid
+{
+    border-left: 900px;
+}
+.work-content
+{
+    margin-top: 60px;
+}
+#textv
+{
+    position: absolute;
+    left: 550px;
+    top: 40px;
+    color: #fff;
+    white-space: nowrap;
+    font-size: 1.5em;
+    z-index: 9;
+}
+section iframe#share
+{
+    position: relative;
+    align-content:space-around;
+    left: 2%;
+    width: 860%;
+    height: 90%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
+section iframe#group
+{
+    position: center;
+    align-content: center;
+    left: 43%;
+    right: 50%;
+    width: 800%;
+    height: 40%;
+    object-fit: cover;
+    pointer-events: all;
+    z-index: 11;
+}
