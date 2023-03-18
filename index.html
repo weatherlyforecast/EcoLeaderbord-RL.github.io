@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>XOTTIKMW</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="shortcut icon" type="x-icon" href="xottikmw.png">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="logo"><img src="xottikmw.png" alt=""></a>
+            <P id="textp">HOME</P>
+                   
+
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+            </ul>
+        </header>
+        <div class="sec" id="sec">
+        <iframe src="https://unbelievaboat.com/leaderboard/1075142199991337060/widget" width="450" height="500" style="border: 0;"></iframe>
+        </div>
+        <script>
+            let header = document.querySelector('header');
+
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                text.style.marginRight = value * 4 + 'px';
+                text.style.marginTop = value * 1.5 + 'px';
+                header.style.top = value * 0.5 + 'px';
+            })
+        </script>
+    </body>
+</html>
